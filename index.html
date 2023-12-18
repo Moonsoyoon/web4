@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ko">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HEALTHY PLEASURE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="diet.css">
+
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target="#nav-menu">
+
+    <!-- 네비게이션 영역 시작-->
+    <nav class="navbar navbar-expand-md bg-white navbar-white fixed-top">
+        <div class="container">
+
+            <a class="gugi-font navbar-brand" href="#home">
+                <img src="home_logo.png" alt="로고">
+                more healthier, more happier</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+                aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav ms-auto my-2">
+                    <li class="nav-item"><a class="nav-link" href="#Recipe">Recipe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Ingredient">Ingredient</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#At-home-workouts">At-home-workouts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Community">Community</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 네비게이션 영역 끝 -->
+
+
+     <!-- 헤더 영역 시작 -->
+     <header id="home" class="d-flex flex-column justify-content-center align-items-center vh-100 text-white">
+    </header>
+    <!-- 헤더 영역 끝 -->
+
+
+    <!-- 레시피 섹션 시작 -->
+    <section class="bg-white py-5" id="Recipe">
+
+        <div class="container overflow-hidden">
+            <div class="text-center text-grey py-5">
+                <h2 class="fw-bold mb-3">레시피</h2>
+                <p>건강과 맛 두가지를 다 잡은 레시피들</p>
+            </div>
+
+            <div class="row pb-5 g-4">
+                <div class="col-sm-6 col-lg-4">
+                    <img src="recipe1.jpg" alt="레시피 1" class="img-fluid img-thumbnail">
+                    <p class="text-muted">연어 스테이크</p>
+                    <button type="button" data-bs-toggle="Modal" data-bs-target="#Modal"
+                    class="btn btn-outline-success rounded-pill">필요한 재료</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="Modal" aria-hidden="true">
+            <div class="modal-dialog modal-sm modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-dark fs-5" id="Modal">재료</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-muted">연어 2토막, 아스파라거스 5개, 마늘 10개, 소금, 후추</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 끝 -->
+                </div>
+
+
+                <div class="col-sm-6 col-lg-4">
+                    <img src="recipe2.jpg" alt="레시피 2" class="img-fluid img-thumbnail">
+                    <p class="text-muted">샐러드 파스타</p>
+                    <button type="button" data-bs-toggle="Modal" data-bs-target="#Modal"
+                    class="btn btn-outline-success rounded-pill">필요한 재료</button>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="recipe3.jpg" alt="레시피 3" class="img-fluid img-thumbnail">
+                    <p class="text-muted">샌드위치</p>
+                    <button type="button" data-bs-toggle="Modal" data-bs-target="#Modal"
+                    class="btn btn-outline-success rounded-pill">필요한 재료</button>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="recipe4.jpg" alt="레시피 4" class="img-fluid img-thumbnail">
+                    <p class="text-muted">버섯 피자</p>
+                    <button type="button" data-bs-toggle="Modal" data-bs-target="#Modal"
+                    class="btn btn-outline-success rounded-pill">필요한 재료</button>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="recipe5.jpg" alt="레시피 5" class="img-fluid img-thumbnail">
+                    <p class="text-muted">토마토 수프</p>
+                    <button type="button" data-bs-toggle="Modal" data-bs-target="#Modal"
+                    class="btn btn-outline-success rounded-pill">필요한 재료</button>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="recipe6.jpg" alt="레시피 6" class="img-fluid img-thumbnail">
+                    <p class="text-muted">과일 그릭요거트</p>
+                    <button type="button" data-bs-toggle="Modal" data-bs-target="#Modal"
+                    class="btn btn-outline-success rounded-pill">필요한 재료</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 레시피 섹션 끝 -->
+
+
+    <!-- 식재료 섹션 시작 -->
+    <section class="bg-white py-5" id="Ingredient">
+
+        <div class="container overflow-hidden">
+            <div class="text-center text-grey py-5">
+                <h2 class="fw-bold mb-3">식재료</h2>
+                <p>신선한 식재료를 최저가로 한눈에!</p>
+            </div>
+
+            <div class="row pb-5 g-4">
+                <div class="col-sm-6 col-lg-4">
+                    <img src="tomato.jpg" alt="토마토" class="img-fluid img-thumbnail">
+
+                    <p class="text-muted">토마토</p>
+                    <a href="https://search.shopping.naver.com/search/all?where=all&frm=NVSCTAB&query=%ED%86%A0%EB%A7%88%ED%86%A0" 
+                    class="btn btn-success btn-sm"> 오늘의 최저가 보러가기 </a>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="chicken.jpg" alt="닭가슴살" class="img-fluid img-thumbnail">
+
+                    <p class="text-muted">닭가슴살</p>
+                    <a href="https://search.shopping.naver.com/search/all?query=%EB%8B%AD%EA%B0%80%EC%8A%B4%EC%82%B4&cat_id=&frm=NVSHATC" 
+                    class="btn btn-success btn-sm"> 오늘의 최저가 보러가기 </a>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="cabbage.jpg" alt="양배추" class="img-fluid img-thumbnail">
+
+                    <p class="text-muted">양배추</p>
+                    <a href="https://search.shopping.naver.com/search/all?query=%EC%96%91%EB%B0%B0%EC%B6%94&cat_id=&frm=NVSHATC" 
+                    class="btn btn-success btn-sm"> 오늘의 최저가 보러가기 </a>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <!-- 식재료 섹션 끝 -->
+
+
+    <!-- 운동 섹션 시작 -->
+    <section class="bg-white py-5" id="At-home-workouts">
+
+        <div class="container overflow-hidden">
+            <div class="text-center text-grey py-5">
+                <h2 class="fw-bold mb-3">운동</h2>
+                <p>집에서도 혼자 쉽게 따라할 수 있는 운동들</p>
+            </div>
+
+            <div class="row pb-5 g-4">
+                <div class="col-sm-6 col-lg-4">
+                    <img src="w1.jpg" alt="운동 1" class="img-fluid img-thumbnail">
+                    <p class="py-4 mb-0">
+                        <a href="https://youtu.be/e1DHt9wfQOA?si=_Dn4fRngqb3eTX4W" target="_blank"
+                        class="text-decoration-none">상체운동 20분 루틴</a></p>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <img src="w2.jpg" alt="운동 2" class="img-fluid img-thumbnail">
+                    <p class="py-4 mb-0">
+                        <a href="https://youtu.be/Kk7TQGqQ3nA?si=xa5ToqeQ3BVz3LCK" target="_blank"
+                        class="text-decoration-none">전신 스트레칭 20분 루틴</a></p>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <img src="w3.jpg" alt="운동 3" class="img-fluid img-thumbnail">
+                   <p class="py-4 mb-0">
+                        <a href="https://youtu.be/EyAj18m7leM?si=MYkSoBBWCe0WpzuX" target="_blank"
+                        class="text-decoration-none">복근운동 20분 루틴</a></p>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <img src="w4.jpg" alt="운동 4" class="img-fluid img-thumbnail">
+                    <p class="py-4 mb-0">
+                        <a href="https://youtu.be/1q8DbcHKRvU?si=ShKMoGBiZTZZt36f" target="_blank"
+                        class="text-decoration-none">하체운동 30분 루틴</a></p>
+
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="w5.jpg" alt="운동 5" class="img-fluid img-thumbnail">
+                    <p class="py-4 mb-0">
+                        <a href="https://youtu.be/ejcfa2prYmI?si=U-VMxrxsHItnCWP5" target="_blank"
+                        class="text-decoration-none">전신스트레칭 30분 루틴</a></p>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="w6.jpg" alt="운동 6" class="img-fluid img-thumbnail">
+                    <p class="py-4 mb-0">
+                        <a href="https://youtu.be/saVNCLGvics?si=5NagjcK926ivQ8fk" target="_blank"
+                        class="text-decoration-none">힙운동 15분 루틴</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 운동 섹션 끝 -->
+
+    <!-- 커뮤니티 섹션 시작 -->
+    <section class="bg-white py-5" id="Community">
+
+        <div class="container overflow-hidden">
+            <div class="text-center text-grey py-5">
+                <h2 class="fw-bold mb-3">커뮤니티</h2>
+                <p>본인만의 레시피 공유 및 QnA!</p>
+            </div>
+
+            <div class="row pb-5 g-4">
+                <div class="col-sm-6 col-lg-4">
+                    <img src="c1.jpg" alt="레시피공유" class="img-fluid img-thumbnail">
+
+                    <p class="text-muted">[레시피공유] 훈제오리로 만든 샐러드 파스타 레시피 공유합니다!</p>
+                </div>
+                
+                <div class="col-sm-6 col-lg-4">
+                    <img src="c2.jpg" alt="큐앤에이" class="img-fluid img-thumbnail">
+
+                    <p class="text-muted">[QnA] 24살 남자 키 180cm에 이정도 몸무게 어떤가요?</p>
+
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <img src="c3.jpg" alt="레시피공유" class="img-fluid img-thumbnail">
+
+                    <p class="text-muted">[레시피공유] 맛있는 건강 해독 주스 레시피 공유합니다.</p>
+
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <!-- 커뮤니티 섹션 끝 -->
+
+
+        <!-- 풋터 시작 -->
+        <footer class="bg-dark text-white">
+            <div class="container text-center">
+                <p class="py-4 mb-0">서울여자대학교 디지털미디어학과 2019111248 문소윤</p>
+                <p class="py-4 mb-0">사진 출처: pixabay.com</p>
+            </div>
+        </footer>
+        <!-- 풋터 끝 -->
+
+
+</body>
+
+
+</html>
